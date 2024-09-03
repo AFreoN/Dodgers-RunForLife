@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1614820235978826}
+  m_IsPrefabAsset: 1
+--- !u!1 &1614820235978826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4210807446220234}
+  - component: {fileID: 114470550524085702}
+  m_Layer: 0
+  m_Name: AudioManagerGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4210807446220234
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1614820235978826}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 59.58066, y: 11.097806, z: 17.03091}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114470550524085702
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1614820235978826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d238e061c548bb943b1d6de2262f48be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Coin
+    clip: {fileID: 8300000, guid: b748e522445a92543ab841d7e22e5fbf, type: 3}
+    volume: 0.5
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: Hammer
+    clip: {fileID: 8300000, guid: bae7616cb3e353a46bb4cf9a986d096e, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: Main
+    clip: {fileID: 8300000, guid: ce4affca562f91f4396241ef04fd3e8b, type: 3}
+    volume: 0.3
+    loop: 1
+    awake: 1
+    source: {fileID: 0}
+  - name: MutantMagneto
+    clip: {fileID: 8300000, guid: 74d575a253a3d2c44881b39276685c19, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: HammerHit
+    clip: {fileID: 8300000, guid: facb44b3845f24a45825809d9c0695dc, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: Blood
+    clip: {fileID: 8300000, guid: 631d578057a680649a6c9e66f88806f4, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: AssassinSprint
+    clip: {fileID: 8300000, guid: 356dc6b385c9db24887cbfe8ff1eb6e5, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: AssassinMagneto
+    clip: {fileID: 8300000, guid: 07cc4ff20ce360b4b878ae8043b2ec4f, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: AssassinDeath
+    clip: {fileID: 8300000, guid: cf3db7611054fba45babbaf4a7b61ba7, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: KnightSprint
+    clip: {fileID: 8300000, guid: 061aa5e192c00b64c85ca2188a406cc0, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: KnightMagneto
+    clip: {fileID: 8300000, guid: 6b3c6b7e84af9984eb57cd87fada66ff, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: KnightDeath
+    clip: {fileID: 8300000, guid: d34771e5c2d3edf4cab1b09131757480, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: MutantSprint
+    clip: {fileID: 8300000, guid: a65fb5189e2ef62418dddcb34186ca46, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: MutantDeath
+    clip: {fileID: 8300000, guid: dc7a1b4886b6e534786d4e513e7b5d90, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: PowerDown
+    clip: {fileID: 8300000, guid: 1565b28845d4e9e478d53a2451c4ccb5, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: SPbtn
+    clip: {fileID: 8300000, guid: 879ccd80c54f47e488de307f7a0c2a58, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: URDead
+    clip: {fileID: 8300000, guid: 19509522e313dd74cb8ed0b1b44bddfa, type: 3}
+    volume: 0.5
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: untitle
+    clip: {fileID: 8300000, guid: c34314dd650f4ec46a0a03f917171289, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: ohya
+    clip: {fileID: 8300000, guid: c4251839a71b5644aa535c4786484e70, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: error
+    clip: {fileID: 8300000, guid: 89326ca164635914abbe3ef2dc0324c9, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: MutantSP
+    clip: {fileID: 8300000, guid: 6e451221e3b262d46a2b1bb1058c47a6, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: KnightSP
+    clip: {fileID: 8300000, guid: ea7d1a58528439f419a974b2d3bcb9e2, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}
+  - name: Fall
+    clip: {fileID: 8300000, guid: 2da8be75962c8d047b77598250616281, type: 3}
+    volume: 1
+    loop: 0
+    awake: 0
+    source: {fileID: 0}

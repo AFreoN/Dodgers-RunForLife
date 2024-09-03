@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1699718821133182}
+  m_IsPrefabAsset: 1
+--- !u!1 &1699718821133182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4429129381289344}
+  - component: {fileID: 114763767741926530}
+  m_Layer: 0
+  m_Name: PoolObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4429129381289344
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1699718821133182}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -32.543762, y: 7.1634088, z: 52.02762}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114763767741926530
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1699718821133182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74b32f8b31b0c2c408c377dd4a80c738, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - tag: Ground1
+    prefab: {fileID: 1420675121787620, guid: d779dd8c2280a0f429b533916657fdce, type: 2}
+    size: 4
+  - tag: Ground2
+    prefab: {fileID: 1396274774432126, guid: e2332cccdffc8f645af03eeee58c3162, type: 2}
+    size: 4
+  - tag: Ground3
+    prefab: {fileID: 1759721461461198, guid: bfec65416f2bffe4ab4d12cfaa699d91, type: 2}
+    size: 4
+  - tag: ARRight
+    prefab: {fileID: 1742794499678354, guid: 96afa6acad1064740995e97245c7b963, type: 2}
+    size: 8
+  - tag: ARLeft
+    prefab: {fileID: 1935376128391278, guid: 94109018a2ee708449acf058e8d35415, type: 2}
+    size: 8
+  - tag: Hammer
+    prefab: {fileID: 1788320229669144, guid: 5c67ce23fcd643645bf07b2dcd8224c4, type: 2}
+    size: 4
+  - tag: Blade
+    prefab: {fileID: 1259904381369178, guid: 980cba1389def6549b39c4406671289d, type: 2}
+    size: 3
+  - tag: VertBlade
+    prefab: {fileID: 1805802009527268, guid: 6a3a60a14a98d3e42be37497409a0bf8, type: 2}
+    size: 6
